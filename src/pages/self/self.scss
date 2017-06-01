@@ -1,0 +1,25 @@
+page-self {
+.item-ios ion-thumbnail img {
+    width: 24px;
+    height: 24px;
+}
+
+.item-ios ion-thumbnail {
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.head-container{
+  height: 200px;
+  width: 100%;
+  background: $color_blue;
+}
+
+.more{
+  color: $color_white;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+}

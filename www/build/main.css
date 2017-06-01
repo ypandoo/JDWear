@@ -27454,3 +27454,26 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+page-self .item-ios ion-thumbnail img {
+  width: 24px;
+  height: 24px;
+}
+
+page-self .item-ios ion-thumbnail {
+  min-width: 24px;
+  min-height: 24px;
+}
+
+page-self .head-container {
+  height: 200px;
+  width: 100%;
+  background: #488aff;
+}
+
+page-self .more {
+  color: #fff;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
