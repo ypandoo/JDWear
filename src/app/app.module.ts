@@ -7,6 +7,8 @@ import { SelfPage } from '../pages/self/self';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { SetActivityPage } from '../pages/set-activity/set-activity';
+import { LanguageSetActivityPage } from '../pages/language-set-activity/language-set-activity';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -16,9 +18,10 @@ import {HttpModule, Http} from '@angular/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: Http) {
-    return new TranslateHttpLoader(http);
+    return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
 }
 
 
@@ -28,7 +31,9 @@ export function HttpLoaderFactory(http: Http) {
     ContactPage,
     HomePage,
     SelfPage,
-    TabsPage
+    SetActivityPage,
+    TabsPage,
+    LanguageSetActivityPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +53,9 @@ export function HttpLoaderFactory(http: Http) {
     SelfPage,
     ContactPage,
     HomePage,
-    TabsPage
+    SetActivityPage,
+    TabsPage,
+    LanguageSetActivityPage
   ],
   providers: [
     StatusBar,

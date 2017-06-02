@@ -7,12 +7,26 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{'SetActivity_Title' | translate}}}</ion-title>
+    <ion-title>{{'SetActivity_Title' | translate}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>{{ 'LanguageSetActivity_Title' | translate}}</ion-label>
+      <ion-select [(ngModel)]="language" (ionChange)="onSelectLanguage($event)">
+        <ion-option value="en">English</ion-option>
+        <ion-option value="zh">中文</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+    </ion-item>
+
+
+  </ion-list>
 
 </ion-content>
