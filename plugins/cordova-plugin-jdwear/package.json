@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/SuperLei/JDApp/jdwear",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/SuperLei/JDApp/jdwear",
+        "spec": "/Users/SuperLei/JDApp/jdwear",
+        "type": "directory"
+      },
+      "/Users/SuperLei/JDApp/node_modules"
+    ]
+  ],
+  "_from": "jdwear",
+  "_id": "jdwear@0.0.1",
+  "_inCache": true,
+  "_location": "/jdwear",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/SuperLei/JDApp/jdwear",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/SuperLei/JDApp/jdwear",
+    "spec": "/Users/SuperLei/JDApp/jdwear",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:jdwear",
+  "_shasum": "15c332870779c41669f097256bb81ebdd6fc2e91",
+  "_shrinkwrap": null,
+  "_spec": "/Users/SuperLei/JDApp/jdwear",
+  "_where": "/Users/SuperLei/JDApp/node_modules",
+  "author": {
+    "name": "leiyang"
+  },
+  "cordova": {
+    "id": "cordova-plugin-jdwear",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "jdwear",
+  "devDependencies": {},
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "name": "jdwear",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}

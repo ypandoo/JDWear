@@ -46,5 +46,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-jdwear": {
+        "source": {
+            "type": "local",
+            "path": "/Users/SuperLei/JDApp/node_modules/jdwear"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

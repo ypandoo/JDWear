@@ -22,6 +22,7 @@
 		35017052AD1B4130AE2D7377 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A92E88316084D04AAA58E29 /* CDVViewController+SplashScreen.m */; };
 		9A27C15A90204F65A7D06563 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACAC2CF5124D09B8FCF427 /* CDVStatusBar.m */; };
 		AFD48A4C49964E72A8A1947A /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9CCB296B6430B995F5C8C /* IonicKeyboard.m */; };
+		04570C86F2DA49018745C86A /* jdwear.m in Sources */ = {isa = PBXBuildFile; fileRef = E558C9E9C9414D21AE994524 /* jdwear.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		C1CF18CB6B0C4D52A376E078 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		0AE9CCB296B6430B995F5C8C /* IonicKeyboard.m */ = {isa = PBXFileReference; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		D4806CF0D52E46E3BF6314C3 /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E558C9E9C9414D21AE994524 /* jdwear.m */ = {isa = PBXFileReference; name = "jdwear.m"; path = "cordova-plugin-jdwear/jdwear.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				C1CF18CB6B0C4D52A376E078 /* CDVStatusBar.h */,
 				0AE9CCB296B6430B995F5C8C /* IonicKeyboard.m */,
 				D4806CF0D52E46E3BF6314C3 /* IonicKeyboard.h */,
+				E558C9E9C9414D21AE994524 /* jdwear.m */,
 			);
 			name = Plugins;
 			path = "MyApp/Plugins";
@@ -307,6 +310,7 @@
 				35017052AD1B4130AE2D7377 /* CDVViewController+SplashScreen.m in Sources */,
 				9A27C15A90204F65A7D06563 /* CDVStatusBar.m in Sources */,
 				AFD48A4C49964E72A8A1947A /* IonicKeyboard.m in Sources */,
+				04570C86F2DA49018745C86A /* jdwear.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

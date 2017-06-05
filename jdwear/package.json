@@ -1,0 +1,17 @@
+{
+  "name": "jdwear",
+  "version": "0.0.1",
+  "description": "jdwear",
+  "cordova": {
+    "id": "cordova-plugin-jdwear",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "leiyang",
+  "license": "ISC"
+}
