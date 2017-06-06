@@ -1,13 +1,13 @@
 <ion-content>
 
   <div class="head-container">
-    <a class="more" (click)="pushPage()">{{'MoreActivity' | translate}} </a>
+    <a class="more" (click)="more()">{{'MoreActivity' | translate}} </a>
     <a class="head"></a>
     <a class="head"></a>
   </div>
 
   <ion-list no-border>
-    <ion-item>
+    <ion-item (click)="deviceInfo()">
       <ion-thumbnail item-left>
       <img src="assets/img/icon_wearable.png">
       </ion-thumbnail>

@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SetActivityPage } from '../pages/set-activity/set-activity';
 import { LanguageSetActivityPage } from '../pages/language-set-activity/language-set-activity';
+import {DeviceinfoPage} from '../pages/deviceinfo/deviceinfo'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -33,7 +34,8 @@ export function HttpLoaderFactory(http: Http) {
     SelfPage,
     SetActivityPage,
     TabsPage,
-    LanguageSetActivityPage
+    LanguageSetActivityPage,
+    DeviceinfoPage
   ],
   imports: [
     BrowserModule,
@@ -55,7 +57,8 @@ export function HttpLoaderFactory(http: Http) {
     HomePage,
     SetActivityPage,
     TabsPage,
-    LanguageSetActivityPage
+    LanguageSetActivityPage,
+    DeviceinfoPage
   ],
   providers: [
     StatusBar,
